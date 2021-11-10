@@ -1,0 +1,24 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "description": "tic tac toe game in PureScript",
+  "dependencies": {
+    "ace-builds": "^1.4.11",
+    "big-integer": "^1.6.48",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "xhr2": "^0.2.0"
+  },
+  "devDependencies": {
+    "purescript": "^0.14.5",
+    "purty": "^7.0.0",
+    "spago": "^0.20.3",
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "build": "spago build",
+    "run": "spago run",
+    "dev": "parcel index.html"
+  },
+  "author": "Abinaya Sudhir <abinayasudhir@gmail.com>"
+}
